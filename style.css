@@ -13,12 +13,15 @@
 
   /* Theme styles */
   body {
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.1s, color 0.3s;
   }
 
   /* Light theme (default) */
   .navbar {
     background-color: #000 !important;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
   }
 
   .navbar .nav-link,
